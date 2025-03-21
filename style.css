@@ -1,5 +1,26 @@
 /* Configuração geral*/
 @import url(global.css);
 
-/* Desktop*/
-@import url(style.css);
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: reapeat(5, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+.grid-item {
+    height: 100px;
+    width: 100%;
+}
+
+.vermelha {background-color: #f95151;}
+.verde {background-color: #baf5bd;}
+.azul {background-color: #1488ca;}
+.amarela {background-color: #f8ab08;}
+.roxa {background-color: #8b44ac;}
