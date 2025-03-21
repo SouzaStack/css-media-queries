@@ -1,0 +1,5 @@
+/* Configuração geral*/
+@import url(global.css);
+
+/* Desktop*/
+@import url(style.css);
