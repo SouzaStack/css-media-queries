@@ -51,7 +51,7 @@ No código acima, o tamanho da fonte será **16px** por padrão (dispositivos m�
 
 ----
 
-# Autores
+# Autores do exemplo
 
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/61896274?v=4" width=115><br><sub>Fernanda Kipper</sub>](https://github.com/Fernanda-Kipper) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/193841372?v=4" width=115><br><sub>Matheus Souza</sub>](https://github.com/SouzaStack) |
 | :---: | :---: |
