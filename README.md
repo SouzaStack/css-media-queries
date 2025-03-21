@@ -6,7 +6,6 @@ A **responsividade** refere-se à capacidade de um site ou sistema se adaptar di
 ----
 
 ## Media Queries?
-
 As **media queries** são um recurso do CSS que permite aplicar diferentes estilos com base no tamanho da tela ou outras características do dispositivo. Com isso, conseguimos criar layouts que se ajustam automaticamente a diferentes resoluções.
 
 ### Exemplo de uso:
@@ -24,7 +23,6 @@ No exemplo acima, o fundo do site ficará cinza quando a largura da tela for de 
 ----
 
 ## Mobile First?
-
 **Mobile First** é uma abordagem de desenvolvimento onde o design e a estrutura do site são inicialmente criados para dispositivos móveis e depois adaptados para telas maiores.
 
 ### Vantagens do Mobile First:
@@ -52,6 +50,5 @@ No código acima, o tamanho da fonte será **16px** por padrão (dispositivos m�
 ----
 
 # Autores do exemplo
-
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/61896274?v=4" width=115><br><sub>Fernanda Kipper</sub>](https://github.com/Fernanda-Kipper) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/193841372?v=4" width=115><br><sub>Matheus Souza</sub>](https://github.com/SouzaStack) |
 | :---: | :---: |
