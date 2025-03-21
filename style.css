@@ -2,25 +2,51 @@
 @import url(global.css);
 
 .conteudo {
+    text-align: center;
+    width: 90%;
+
     display: flex;
     flex-direction: column;
     align-items: stretch;
+
+    gap: 16px;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: reapeat(5, 1fr);
+    grid-template-columns: 1fr;
     grid-gap: 10px;
     margin-top: 20px;
 }
 
 .grid-item {
-    height: 100px;
+    height: 70px;
     width: 100%;
+    display: flex;
 }
 
 .vermelha {background-color: #f95151;}
-.verde {background-color: #baf5bd;}
+.verde {background-color: #a5e0a8;}
 .azul {background-color: #1488ca;}
 .amarela {background-color: #f8ab08;}
 .roxa {background-color: #8b44ac;}
+
+@media (min-width: 768px) {
+    .conteudo {
+        width: 70%;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .conteudo {
+        width: 50%;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}

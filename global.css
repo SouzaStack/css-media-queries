@@ -9,10 +9,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     height: 100vh;
 }
 
 h1 {
     font-size: 36px;
+}
+
+@media (min-widtth: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+}
+
+@media (min-widtth: 1024px) {
+    h1 {
+        font-size: 42px;
+    }
 }
